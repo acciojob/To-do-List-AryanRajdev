@@ -7,9 +7,11 @@ document.getElementById("addTodoBtn").addEventListener("click",()=>{
 		li.textContent = input;
 		ol.appendChild(li);
 	}
+
+	document.getElementById("newTodoInput").value = "";
 	
 });
 
-document.getElementById("newTodoInput").addEventListener("click",()=>{
-	document.getElementById("newTodoInput").value = "";
-});
+// document.getElementById("newTodoInput").addEventListener("click",()=>{
+	
+// });
